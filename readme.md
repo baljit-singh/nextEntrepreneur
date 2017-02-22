@@ -1,0 +1,1 @@
+This is the design of the website for the college entrepreneurship competition
