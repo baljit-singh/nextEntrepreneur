@@ -1,0 +1,186 @@
+p, td, blockquote, .panel-heading, .panel-body, footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px; }
+
+img {
+  box-shadow: 8px 8px 16px -6px black; }
+
+.ImgContainer {
+  background: url("../img/bgPic3.jpg");
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7); }
+  .ImgContainer .container .row .alignment {
+    text-align: center;
+    color: white; }
+    .ImgContainer .container .row .alignment h1 {
+      margin-top: 125px;
+      margin-bottom: 40px;
+      font-family: "Rock Salt", cursive;
+      font-size: 80px;
+      font-weight: bold; }
+    .ImgContainer .container .row .alignment p {
+      font-family: "Oswald", sans-serif;
+      margin: 20px 0;
+      font-size: 20px; }
+    .ImgContainer .container .row .alignment .btn {
+      font-family: "Oswald", sans-serif;
+      border: 3px solid #FFC300;
+      background: none;
+      font-size: 35px;
+      width: 55%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 60px;
+      transition: 0.3s ease; }
+      .ImgContainer .container .row .alignment .btn:hover {
+        background-color: #FFC300; }
+
+.SectionHeight {
+  padding-top: 35px; }
+  .SectionHeight h3 {
+    text-align: center;
+    font-family: "Oswald", sans-serif; }
+  .SectionHeight .hiddenFirstImg {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.5s ease-in-out; }
+  .SectionHeight .hiddenFirstPara {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: 0.5s ease-in-out; }
+  .SectionHeight .hiddenSecondImg {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.5s ease-in-out; }
+  .SectionHeight .hiddenSecondPara {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: 0.5s ease-in-out; }
+  .SectionHeight .hiddenThirdImg {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.5s ease-in-out; }
+  .SectionHeight .hiddenThirdPara {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: 0.5s ease-in-out; }
+  .SectionHeight .appear {
+    opacity: 1;
+    transform: translateY(0px); }
+  .SectionHeight .descConf {
+    padding: 65px 25px 25px 25px; }
+
+.ImgContainerSecond {
+  background: url("../img/pattern1.png");
+  height: 100%;
+  width: 100%; }
+  .ImgContainerSecond .table-responsive {
+    padding-top: 55px; }
+    .ImgContainerSecond .table-responsive table, .ImgContainerSecond .table-responsive td {
+      text-align: center;
+      border: 1px solid black;
+      width: 50%;
+      margin: auto; }
+
+.Conf {
+  background-color: #2B3376;
+  color: white; }
+
+.ImgContainerThird {
+  background: url("../img/pattern2.png");
+  padding-top: 100px; }
+  .ImgContainerThird blockquote {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    color: #a5a4a4;
+    font-style: italic;
+    text-align: center; }
+    .ImgContainerThird blockquote p {
+      margin-top: 10px;
+      font-weight: bold;
+      font-style: normal; }
+
+.ImgContainerFourth {
+  background-color: #C76767;
+  color: white; }
+
+.panel-group {
+  padding-top: 65px; }
+  .panel-group .panel {
+    width: 65%;
+    margin: auto;
+    background: none;
+    color: white;
+    border: none; }
+    .panel-group .panel .panel-heading .panel-title a:link, .panel-group .panel .panel-heading .panel-title a:hover {
+      text-decoration: none; }
+    .panel-group .panel .panel-heading .panel-title a > span {
+      font-size: 25px;
+      margin-right: 10px; }
+    .panel-group .panel .panel-body {
+      background: rgba(0, 0, 0, 0.2); }
+
+footer {
+  padding-top: 65px;
+  background-color: #35373C; }
+  footer .footerBorder {
+    border-bottom: 1px solid #BABABC; }
+    footer .footerBorder ul {
+      list-style: none;
+      padding-bottom: 15px; }
+      footer .footerBorder ul li {
+        color: #BABABC;
+        padding-top: 10px; }
+        footer .footerBorder ul li a {
+          text-decoration: none;
+          color: #BABABC;
+          transition: 0.3s ease; }
+          footer .footerBorder ul li a:hover {
+            text-decoration: none;
+            color: white; }
+      footer .footerBorder ul .heading {
+        padding-bottom: 13px;
+        color: #F8F8F8; }
+  footer .socialIcons ul {
+    list-style: none;
+    padding: 40px 0 10px 0;
+    text-align: center; }
+    footer .socialIcons ul li {
+      display: inline;
+      padding: 0 15px;
+      font-size: 30px; }
+      footer .socialIcons ul li a {
+        color: #BABABC;
+        transition: 0.3s ease; }
+        footer .socialIcons ul li a:hover {
+          color: white; }
+  footer .socialIcons p {
+    color: #BABABC;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 40px; }
+
+@media (max-width: 740px) {
+  .SectionHeight {
+    padding-bottom: 70px; } }
+@media (max-width: 650px) {
+  .ImgContainer .container .row .alignment .title {
+    font-size: 70px; } }
+@media (max-width: 550px) {
+  .ImgContainer .container .row .alignment .title {
+    font-size: 60px; } }
+@media (max-width: 468px) {
+  .ImgContainer .container .row .alignment .title {
+    font-size: 50px; } }
+@media (max-width: 396px) {
+  .ImgContainer .container .row .alignment .title {
+    font-size: 40px; } }
+@media (max-width: 362px) {
+  .ImgContainer .container .row .alignment .btn {
+    font-size: 30px; } }
+@media (max-width: 332px) {
+  .ImgContainer .container .row .alignment .title {
+    font-size: 35px; } }
+
+/*# sourceMappingURL=style.css.map */

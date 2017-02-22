@@ -1,0 +1,288 @@
+$confBgColor: #2B3376
+$faqBgColor: #C76767
+$footerBgColor: #35373C
+$footerHeadingColor: #F8F8F8
+$footerListColor: #BABABC
+$buttonBorder: #FFC300
+
+p,td,blockquote,.panel-heading,.panel-body,footer
+	font-family: 'Raleway', sans-serif
+	font-size: 18px
+
+img
+	box-shadow: 8px 8px 16px -6px black
+
+=hiddenImg()
+	opacity: 0
+	transform: translateY(40px)
+	transition: 0.5s ease-in-out
+
+=hiddenParaOne()
+	opacity: 0
+	transform: translateX(40px)
+	transition: 0.5s ease-in-out
+
+=hiddenParaTwo()
+	opacity: 0
+	transform: translateX(-40px)
+	transition: 0.5s ease-in-out
+
+
+
+
+.ImgContainer
+	background: url("../img/bgPic3.jpg")
+	background-position: center
+	background-size: cover
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.7)
+
+	.container
+		.row	
+			.alignment
+				text-align: center
+				color: white
+		
+				h1
+					margin-top: 125px
+					margin-bottom: 40px
+					font-family: 'Rock Salt', cursive
+
+					font-size: 80px
+					font-weight: bold
+					
+				p
+					font-family: 'Oswald', sans-serif
+					margin: 20px 0
+					font-size: 20px
+
+
+				.btn
+					font-family: 'Oswald', sans-serif
+					border: 3px solid $buttonBorder
+					background: none
+					font-size: 35px
+					width: 55%
+					// text-align: center
+					margin-left: auto
+					margin-right: auto
+					margin-top: 60px
+					transition: 0.3s ease
+
+					&:hover
+						background-color: $buttonBorder
+						
+
+
+.SectionHeight
+	padding-top: 35px
+
+	h3
+		text-align: center
+		font-family: 'Oswald', sans-serif
+
+
+	.hiddenFirstImg 
+		+hiddenImg()
+
+	.hiddenFirstPara
+		+hiddenParaOne()
+
+	.hiddenSecondImg 
+		+hiddenImg()
+
+	.hiddenSecondPara
+		+hiddenParaTwo()
+
+	.hiddenThirdImg 
+		+hiddenImg()
+
+	.hiddenThirdPara
+		+hiddenParaOne()
+
+	.appear
+		opacity: 1
+		transform: translateY(0px)
+
+	.descConf
+		padding: 65px 25px 25px 25px
+
+
+
+
+.ImgContainerSecond
+	background: url("../img/pattern1.png")
+	height: 100%
+	width: 100%
+
+	.table-responsive
+		padding-top: 55px
+
+		table,td
+			text-align: center
+			border: 1px solid black
+			width: 50%
+			margin: auto
+
+.Conf
+	background-color: $confBgColor
+	color: white
+			
+
+.ImgContainerThird
+	background: url("../img/pattern2.png")
+	padding-top: 100px
+	
+	
+	blockquote 
+		border-top: 1px solid #ccc
+		border-bottom: 1px solid #ccc
+		color: #a5a4a4
+		font-style: italic
+		text-align: center
+
+		p
+			margin-top: 10px
+			font-weight: bold
+			font-style: normal
+
+.ImgContainerFourth
+	background-color: $faqBgColor
+	color: white
+
+.panel-group
+	padding-top: 65px
+
+	
+	.panel
+		width: 65%
+		margin: auto
+		background: none
+		color: white
+		border: none
+
+		.panel-heading
+			.panel-title
+				a:link, a:hover
+					text-decoration: none
+
+				a> span
+					font-size: 25px
+					margin-right: 10px
+
+		.panel-body
+			background: rgba(0,0,0,0.2)
+
+footer
+	padding-top: 65px
+	background-color: $footerBgColor
+
+	.footerBorder
+		border-bottom: 1px solid $footerListColor
+
+		ul
+			list-style: none
+			padding-bottom: 15px
+
+			li
+				color: $footerListColor
+				padding-top: 10px
+
+				a
+					text-decoration: none
+					color: $footerListColor
+					transition: 0.3s ease
+
+					&:hover
+						text-decoration: none
+						color: white
+
+			.heading
+				padding-bottom: 13px
+				color: $footerHeadingColor
+
+	.socialIcons
+		ul
+			list-style: none
+			padding: 40px 0 10px 0
+			text-align: center
+
+			li
+				display: inline
+				padding: 0 15px
+				font-size: 30px
+
+				a
+					color: $footerListColor
+					transition: 0.3s ease
+
+					&:hover
+						color: white
+		p
+			color: $footerListColor
+			font-size: 13px
+			text-align: center
+			padding-bottom: 40px 
+
+@media (max-width: 740px)
+	.SectionHeight
+		padding-bottom: 70px
+
+@media (max-width: 650px)
+	.ImgContainer
+		.container
+			.row
+				.alignment
+					.title
+						font-size: 70px
+
+@media (max-width: 550px)
+	.ImgContainer
+		.container
+			.row
+				.alignment
+					.title
+						font-size: 60px
+
+@media (max-width: 468px)
+	.ImgContainer
+		.container
+			.row
+				.alignment
+					.title
+						font-size: 50px
+
+@media (max-width: 396px)
+	.ImgContainer
+		.container
+			.row
+				.alignment
+					.title
+						font-size: 40px
+
+@media (max-width: 362px)
+	.ImgContainer
+		.container
+			.row
+				.alignment
+					.btn
+						font-size: 30px
+
+@media (max-width: 332px)
+	.ImgContainer
+		.container
+			.row
+				.alignment
+					.title
+						font-size: 35px
+
+	
+
+			
+
+
+	
+		
+
+
+
+			
